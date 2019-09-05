@@ -1,10 +1,7 @@
-void setup() {
-  size(500, 500);
-  background(255);
-}
-int value = 0;
-void mouseClicked () {
-  //dice function going into the system
+size(500, 500);
+background(255);
+
+//dice function going into the system
 float Jeff=random(1, 7);
 int Greg=int(Jeff);
 println(Greg);
@@ -12,4 +9,3 @@ println(Greg);
 fill(0);
 textSize(random(10, 300));
 text(Greg, 225, 225);
-}
