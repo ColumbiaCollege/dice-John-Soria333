@@ -1,13 +1,16 @@
   void setup() {
   size(500, 500);
-  background(255);
+  background(0);
   }
   //uses active mode
   void draw() {
   }
   //changes 
   void mouseClicked() {
-  background(random(0, 255));
+  float Guy=random(0, 256);
+  float Alexander=random(0, 256);
+  float Fieri=random(0, 256);
+  background(Guy, Alexander, Fieri);
   //Making actual dice squares
   fill(255);
   square(140, 208, 50);
